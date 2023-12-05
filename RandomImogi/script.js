@@ -4,12 +4,11 @@ document.getElementById("emoji").addEventListener("mouseleave", handleMouseLeave
 document.getElementById("emoji").addEventListener("mouseenter", handleMouseEnter);
 
 
-// Function to generate a random emoji
 function getRandomEmoji() {
   // List of emojis
   const emojis = ["😄", "😊", "😎", "😍", "🤔", "😂", "🥳", "😜", "🤣", "😇"];
 
-  // Get a random index from the array
+
   const randomIndex = Math.floor(Math.random() * emojis.length);
 
   // Return the randomly selected emoji
